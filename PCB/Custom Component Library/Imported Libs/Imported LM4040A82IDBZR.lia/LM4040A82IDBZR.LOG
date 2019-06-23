@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : LM4040A82IDBZR.LibPkg
+
+Section : C:\Users\Jackson\OneDrive - University of Toronto\Rocketry\Flight Systems\Custom Component Library\Imported Libs\LM4040A82IDBZR.lia
+    Section : PCB Library - LM4040A82IDBZR.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token LM4040A82IDBZR On Line 163
+            Warning - 1 : Skipping Token attachedSymbol On Line 220
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - LM4040A82IDBZR.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 101
+            Warning - 1 : Skipping Token layerContents On Line 109
+            Warning - 1 : Skipping Token layerContents On Line 135
+        EndSection
+
+        Section : Generating SCH Library - LM4040A82IDBZR.SchLib
+        EndSection
+    EndSection
+EndSection

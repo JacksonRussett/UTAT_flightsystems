@@ -1,0 +1,5 @@
+Added Component: Designator=Y1(Crystal SMD)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC6_2 Pin=Y1-1
+Added Pin To Net: NetName=NetC8_2 Pin=Y1-2
+Added Member To Class: ClassName=Microcontroller Member=Component Y1 Crystal SMD

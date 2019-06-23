@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=C3 Old Footprint=Cap 680uF TH New Footprint=680 uF Cap
+Change Component Designator: OldDesignator=RESET1 NewDesignator=RESET
+Change Component Designator: OldDesignator=U3 NewDesignator=M1
+Change Component Designator: OldDesignator=U4 NewDesignator=SEN1
+Change Component Designator: OldDesignator=U5 NewDesignator=SEN2
+Change Component Designator: OldDesignator=U6 NewDesignator=D2
+Change Net Name : Old Net Name=NetR1_2 New Net Name=NetM1_30
+Change Net Name : Old Net Name=NetR2_1 New Net Name=NetD2_1
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetM1_97

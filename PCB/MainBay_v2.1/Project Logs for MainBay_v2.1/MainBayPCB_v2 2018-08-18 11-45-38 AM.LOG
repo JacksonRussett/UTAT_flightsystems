@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetGPS1_2 Pin=GPS1-2
+Removed Pin From Net: NetName=NetGPS1_3 Pin=GPS1-3
+Removed Pin From Net: NetName=GND Pin=GPS1-4
+Removed Pin From Net: NetName=+5VDC Pin=GPS1-5
+Added Component: Designator=GPS1(Neo-6M GPS Module)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetGPS1_2 Pin=GPS1-2
+Added Pin To Net: NetName=NetGPS1_3 Pin=GPS1-3
+Added Pin To Net: NetName=GND Pin=GPS1-4
+Added Pin To Net: NetName=+5VDC Pin=GPS1-5

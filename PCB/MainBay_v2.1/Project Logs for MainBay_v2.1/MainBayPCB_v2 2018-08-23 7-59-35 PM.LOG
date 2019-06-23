@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetM1_A14 Pin=M1-A14
+Removed Pin From Net: NetName=NetM1_A15 Pin=M1-A15
+Removed Pin From Net: NetName=GND Pin=U2-6
+Added Pin To Net: NetName=NetM1_A14 Pin=M1-A2
+Added Pin To Net: NetName=NetM1_A15 Pin=M1-A3
+Change Net Name : Old Net Name=NetM1_A14 New Net Name=NetM1_A2
+Change Net Name : Old Net Name=NetM1_A15 New Net Name=NetM1_A3
+Added Member To Class: ClassName=Top Sheet Member=Component P1 Serial Connector

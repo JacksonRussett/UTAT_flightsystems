@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=+5VDC Pin=U3-10
+Removed Pin From Net: NetName=GND Pin=U3-11
+Removed Pin From Net: NetName=+5VDC Pin=U3-31
+Removed Pin From Net: NetName=GND Pin=U3-32
+Removed Pin From Net: NetName=+5VDC Pin=U3-61
+Removed Pin From Net: NetName=GND Pin=U3-62
+Removed Pin From Net: NetName=+5VDC Pin=U3-80
+Removed Pin From Net: NetName=GND Pin=U3-81
+Removed Pin From Net: NetName=GND Pin=U3-99
+Removed Member From Class: ClassName=Top Sheet Member=U3
+Change Component Designator: OldDesignator=BT2 NewDesignator=BT1
+Change Component Designator: OldDesignator=C5 NewDesignator=C1
+Change Component Designator: OldDesignator=C6 NewDesignator=C2
+Change Component Designator: OldDesignator=C7 NewDesignator=C3
+Change Component Designator: OldDesignator=C8 NewDesignator=C4
+Change Component Designator: OldDesignator=D2 NewDesignator=D1
+Change Component Designator: OldDesignator=L2 NewDesignator=L1
+Change Component Designator: OldDesignator=U4 NewDesignator=U1
+Change Component Designator: OldDesignator=U5 NewDesignator=U2
+Added Component: Designator=*(ATMEGA2560 Breakout)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RESET(KSS-2G)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ck-components.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ck-components.com/media/pdf/catalogs/Tactile_Switches%5CKSS_series_Tactile_August_2007.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Aug-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Subminiature SMT Side Actuated Switch, Body 7 x 3.5 mm (LxW)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "KSS-2G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Aug-2007"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PCB_Layout"; Value = "Complies with manufacturer's recommendation."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "14-Mar-2008"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5VDC Pin=*-EXT5V
+Added Pin To Net: NetName=GND Pin=*-GND
+Added Pin To Net: NetName=GND Pin=*-GND
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD1_1
+Added Member To Class: ClassName=Top Sheet Member=Component * ATMega2560 Breakout
+Added Member To Class: ClassName=Top Sheet Member=Component RESET KSS221GLFS
+Added Room: Name=Top Sheet

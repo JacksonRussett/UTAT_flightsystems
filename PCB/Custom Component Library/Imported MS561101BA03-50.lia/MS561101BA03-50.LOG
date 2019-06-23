@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : MS561101BA03-50.LibPkg
+
+Section : C:\Users\Jackson\OneDrive - University of Toronto\Rocketry\Flight Systems\Custom Component Library\MS561101BA03-50.lia
+    Section : PCB Library - MS561101BA03-50.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token MS561101BA03-50 On Line 269
+            Warning - 1 : Skipping Token attachedSymbol On Line 378
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - MS561101BA03-50.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 94
+            Warning - 1 : Skipping Token layerContents On Line 99
+            Warning - 1 : Skipping Token layerContents On Line 180
+            Warning - 1 : Skipping Token layerContents On Line 186
+        EndSection
+
+        Section : Generating SCH Library - MS561101BA03-50.SchLib
+        EndSection
+    EndSection
+EndSection

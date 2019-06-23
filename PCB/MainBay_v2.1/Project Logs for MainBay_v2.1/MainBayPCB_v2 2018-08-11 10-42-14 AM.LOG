@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetGPS1_3 Pin=M1-RX1
+Removed Pin From Net: NetName=NetCOMP2_2 Pin=M1-RX3
+Removed Pin From Net: NetName=NetGPS1_2 Pin=M1-TX1
+Added Pin To Net: NetName=NetCOMP2_2 Pin=M1-RX1
+Added Pin To Net: NetName=NetGPS1_3 Pin=M1-RX3
+Added Pin To Net: NetName=NetGPS1_2 Pin=M1-TX3

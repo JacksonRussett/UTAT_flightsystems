@@ -1,0 +1,3 @@
+Change Component Comment : Designator=SEN1 Old Comment=Baromateric Pressure Sensor New Comment=Pressure Sensor
+Change Component Comment : Designator=SEN2 Old Comment=Inertial Measurement Unit New Comment=IMU
+Change Component Designator: OldDesignator=RESET1 NewDesignator=RESET

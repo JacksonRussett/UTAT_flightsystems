@@ -1,0 +1,35 @@
+PCAD Importer Log
+Project : 503182-1852.LibPkg
+
+Section : C:\Users\Jackson's PC\OneDrive - University of Toronto\Rocketry\Flight Systems\Custom Component Library\503182-1852.lia
+    Section : PCB Library - 503182-1852.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token 503182-1852 On Line 246
+            Warning - 1 : Skipping Token attachedSymbol On Line 423
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [MOLEX_503182-1852][Primary] associated with PCAD Component [503182-1852] has been renamed to PCB FootPrint [MOLEX_503182-1852_503182-1852(Primary)].
+        EndSection
+    EndSection
+
+    Section : SCH Library - 503182-1852.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token padStyleDef On Line 33
+            Warning - 1 : Skipping Token padStyleDef On Line 45
+            Warning - 1 : Skipping Token padStyleDef On Line 57
+            Warning - 1 : Skipping Token padStyleDef On Line 69
+            Warning - 1 : Skipping Token multiLayer On Line 144
+            Warning - 1 : Skipping Token layerContents On Line 161
+            Warning - 1 : Skipping Token layerContents On Line 168
+            Warning - 1 : Skipping Token layerContents On Line 200
+            Warning - 1 : Skipping Token layerContents On Line 232
+        EndSection
+
+        Section : Generating SCH Library - 503182-1852.SchLib
+            Warning - 0 : PCAD Pattern Graphics [MOLEX_503182-1852][Primary] associated with PCAD Component [503182-1852] has been renamed to PCB FootPrint [MOLEX_503182-1852_503182-1852(Primary)].
+        EndSection
+    EndSection
+EndSection

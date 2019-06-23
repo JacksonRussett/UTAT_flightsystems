@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : TXB0106PWR.LibPkg
+
+Section : C:\Users\Jackson's PC\OneDrive - University of Toronto\Rocketry\Flight Systems\Custom Component Library\TXB0106PWR.lia
+    Section : PCB Library - TXB0106PWR.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token TXB0106PWR On Line 261
+            Warning - 1 : Skipping Token attachedSymbol On Line 448
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - TXB0106PWR.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 102
+            Warning - 1 : Skipping Token layerContents On Line 177
+            Warning - 1 : Skipping Token layerContents On Line 252
+        EndSection
+
+        Section : Generating SCH Library - TXB0106PWR.SchLib
+        EndSection
+    EndSection
+EndSection

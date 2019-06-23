@@ -1,0 +1,84 @@
+Removed Pin From Net: NetName=GND Pin=C6-1
+Removed Pin From Net: NetName=+5VDC Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=+5VDC Pin=C7-2
+Removed Member From Class: ClassName=Sensors Member=C5
+Removed Member From Class: ClassName=Sensors Member=C9
+Removed Member From Class: ClassName=Microcontroller Member=C10
+Removed Member From Class: ClassName=Microcontroller Member=C13
+Removed Member From Class: ClassName=Microcontroller Member=C14
+Removed Member From Class: ClassName=Microcontroller Member=C15
+Removed Member From Class: ClassName=Microcontroller Member=C19
+Removed Member From Class: ClassName=Microcontroller Member=D2
+Removed Member From Class: ClassName=Microcontroller Member=P5
+Removed Member From Class: ClassName=Sensors Member=R3
+Removed Member From Class: ClassName=Microcontroller Member=R10
+Removed Member From Class: ClassName=PowerSys Member=U1
+Removed Member From Class: ClassName=Sensors Member=U1
+Change Component Designator: OldDesignator=C8 NewDesignator=C6
+Change Component Designator: OldDesignator=C9 NewDesignator=C7
+Change Component Designator: OldDesignator=C10 NewDesignator=C8
+Change Component Designator: OldDesignator=C11 NewDesignator=C9
+Change Component Designator: OldDesignator=C12 NewDesignator=C10
+Change Component Designator: OldDesignator=C13 NewDesignator=C11
+Change Component Designator: OldDesignator=C14 NewDesignator=C12
+Added Component: Designator=C13(1608[0603])
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C14(1608[0603])
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Added Component: Designator=P1(HDR1X3H)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P4(HDR2X3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=+5VDC Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=+5VDC Pin=C14-2
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Pin To Net: NetName=NetM1_3 Pin=P1-2
+Added Pin To Net: NetName=NetM1_2 Pin=P1-3
+Added Pin To Net: NetName=MISO Pin=P4-1
+Added Pin To Net: NetName=SCK Pin=P4-3
+Added Pin To Net: NetName=MOSI Pin=P4-4
+Added Pin To Net: NetName=NetC10_2 Pin=P4-5
+Added Pin To Net: NetName=GND Pin=P4-6
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetC6_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC7_2
+Change Net Name : Old Net Name=NetC10_2 New Net Name=NetC8_2
+Change Net Name : Old Net Name=NetC11_2 New Net Name=NetC9_2
+Added Member To Class: ClassName=Microcontroller Member=Component C1 Cap Semi
+Added Member To Class: ClassName=Microcontroller Member=Component C4 Cap Semi
+Added Member To Class: ClassName=Microcontroller Member=Component C5 Cap Semi
+Added Member To Class: ClassName=PowerSys Member=Component C13 Cap Semi
+Added Member To Class: ClassName=PowerSys Member=Component C14 Cap Semi
+Added Member To Class: ClassName=Sensors Member=Component C17 Cap Semi
+Added Member To Class: ClassName=Sensors Member=Component C19 Cap Semi
+Added Member To Class: ClassName=Microcontroller Member=Component D1 LM4040A82IDBZR
+Added Member To Class: ClassName=Microcontroller Member=Component P1 Header 3H
+Added Member To Class: ClassName=Microcontroller Member=Component P3 Header 2
+Added Member To Class: ClassName=Microcontroller Member=Component P4 Header 3X2
+Added Member To Class: ClassName=Microcontroller Member=Component R3 Res3
+Added Member To Class: ClassName=Sensors Member=Component R8 Res3
+Added Member To Class: ClassName=Sensors Member=Component R9 Res3
+Added Member To Class: ClassName=PowerSys Member=Component U3 LD1117S33TR
+Added Member To Class: ClassName=Sensors Member=Component U4 TXB0106

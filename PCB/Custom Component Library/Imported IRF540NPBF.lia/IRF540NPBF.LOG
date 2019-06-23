@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : IRF540NPBF.LibPkg
+
+Section : C:\Users\Jackson's PC\OneDrive - University of Toronto\Rocketry\Flight Systems\Custom Component Library\IRF540NPBF.lia
+    Section : PCB Library - IRF540NPBF.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token HEXFET_N On Line 196
+            Warning - 1 : Skipping Token attachedSymbol On Line 292
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - IRF540NPBF.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 101
+            Warning - 1 : Skipping Token layerContents On Line 136
+            Warning - 1 : Skipping Token layerContents On Line 171
+        EndSection
+
+        Section : Generating SCH Library - IRF540NPBF.SchLib
+        EndSection
+    EndSection
+EndSection

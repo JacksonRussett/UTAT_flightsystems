@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=COMP1-3
+Added Component: Designator=COMP1(StratoLogger_S)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=COMP1-3

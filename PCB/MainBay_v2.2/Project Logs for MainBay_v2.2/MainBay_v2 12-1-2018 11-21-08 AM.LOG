@@ -1,0 +1,84 @@
+Removed Member From Class: ClassName=PowerSys Member=P1
+Added Component: Designator=P?(HDR1X5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3VDC Pin=C2-2
+Added Pin To Net: NetName=+3.3VDC Pin=C7-2
+Added Pin To Net: NetName=+3.3VDC Pin=U1-2
+Added Pin To Net: NetName=+3.3VDC Pin=U1-4
+Added Net: Name=+3.3VDC
+Added Pin To Net: NetName=+5VDC Pin=C1-2
+Added Pin To Net: NetName=+5VDC Pin=C4-1
+Added Pin To Net: NetName=+5VDC Pin=C5-2
+Added Pin To Net: NetName=+5VDC Pin=C9-2
+Added Pin To Net: NetName=+5VDC Pin=L1-1
+Added Pin To Net: NetName=+5VDC Pin=M1-10
+Added Pin To Net: NetName=+5VDC Pin=M1-31
+Added Pin To Net: NetName=+5VDC Pin=M1-61
+Added Pin To Net: NetName=+5VDC Pin=M1-80
+Added Pin To Net: NetName=+5VDC Pin=M1-100
+Added Pin To Net: NetName=+5VDC Pin=P?-1
+Added Pin To Net: NetName=+5VDC Pin=R1-1
+Added Pin To Net: NetName=+5VDC Pin=R2-2
+Added Pin To Net: NetName=+5VDC Pin=U1-3
+Added Pin To Net: NetName=+5VDC Pin=U2-4
+Added Net: Name=+5VDC
+Added Pin To Net: NetName=GND Pin=BT1-2
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=M1-11
+Added Pin To Net: NetName=GND Pin=M1-32
+Added Pin To Net: NetName=GND Pin=M1-62
+Added Pin To Net: NetName=GND Pin=M1-81
+Added Pin To Net: NetName=GND Pin=M1-99
+Added Pin To Net: NetName=GND Pin=P?-2
+Added Pin To Net: NetName=GND Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=GND Pin=RESET-1
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=GND Pin=U2-6
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC6_2 Pin=M1-34
+Added Pin To Net: NetName=NetC6_2 Pin=Y1-1
+Added Net: Name=NetC6_2
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=M1-33
+Added Pin To Net: NetName=NetC8_2 Pin=Y1-2
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=L1-2
+Added Pin To Net: NetName=NetD1_2 Pin=U2-2
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=M1-98
+Added Pin To Net: NetName=NetD2_1 Pin=R2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R3-1
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetM1_30 Pin=M1-30
+Added Pin To Net: NetName=NetM1_30 Pin=R1-2
+Added Pin To Net: NetName=NetM1_30 Pin=RESET-2
+Added Net: Name=NetM1_30
+Added Pin To Net: NetName=NetM1_97 Pin=M1-97
+Added Pin To Net: NetName=NetM1_97 Pin=R4-1
+Added Pin To Net: NetName=NetM1_97 Pin=R5-2
+Added Net: Name=NetM1_97
+Added Pin To Net: NetName=VBAT Pin=BT1-1
+Added Pin To Net: NetName=VBAT Pin=C3-1
+Added Pin To Net: NetName=VBAT Pin=R4-2
+Added Pin To Net: NetName=VBAT Pin=U2-1
+Added Net: Name=VBAT
+Added Member To Class: ClassName=Microcontroller Member=Component P? Serial Connector

@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : MAX232DR.LibPkg
+
+Section : C:\Users\Jackson's PC\OneDrive - University of Toronto\Rocketry\Flight Systems\Custom Component Library\MAX232DR.lia
+    Section : PCB Library - MAX232DR.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token MAX232DR On Line 165
+            Warning - 1 : Skipping Token attachedSymbol On Line 352
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - MAX232DR.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 102
+            Warning - 1 : Skipping Token layerContents On Line 109
+            Warning - 1 : Skipping Token layerContents On Line 136
+        EndSection
+
+        Section : Generating SCH Library - MAX232DR.SchLib
+        EndSection
+    EndSection
+EndSection

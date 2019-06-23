@@ -1,0 +1,81 @@
+Removed Member From Class: ClassName=Microcontroller Member=SEN1
+Removed Member From Class: ClassName=Microcontroller Member=SEN2
+Change Component Comment : Designator=SEN2 Old Comment=MS561101BA03-50 New Comment=MS561101
+Added Component: Designator=C10(C1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=C11(C1206)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Chip Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "C1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Added Component: Designator=U3(SOP65P640X120-16N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "TXB0106PWR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TSSOP-16 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/TXB0106PWR/Texas%20Instruments/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=+3.3VDC Pin=C11-2
+Added Pin To Net: NetName=GND Pin=SEN1-11
+Added Pin To Net: NetName=+3.3VDC Pin=SEN1-13
+Added Pin To Net: NetName=GND Pin=SEN1-18
+Added Pin To Net: NetName=GND Pin=SEN1-20
+Added Pin To Net: NetName=+3.3VDC Pin=SEN2-1
+Added Pin To Net: NetName=GND Pin=SEN2-2
+Added Pin To Net: NetName=GND Pin=SEN2-3
+Added Pin To Net: NetName=+3.3VDC Pin=U3-2
+Added Pin To Net: NetName=+5VDC Pin=U3-8
+Added Pin To Net: NetName=GND Pin=U3-9
+Added Pin To Net: NetName=+5VDC Pin=U3-15
+Added Pin To Net: NetName=CS_IMU Pin=M1-78
+Added Pin To Net: NetName=CS_IMU Pin=U3-13
+Added Net: Name=CS_IMU
+Added Pin To Net: NetName=CS_PRES Pin=M1-77
+Added Pin To Net: NetName=CS_PRES Pin=U3-14
+Added Net: Name=CS_PRES
+Added Pin To Net: NetName=MISO Pin=M1-22
+Added Pin To Net: NetName=MISO Pin=U3-12
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=M1-21
+Added Pin To Net: NetName=MOSI Pin=U3-11
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=SEN1-10
+Added Net: Name=NetC10_2
+Added Pin To Net: NetName=NetSEN1_9 Pin=SEN1-9
+Added Pin To Net: NetName=NetSEN1_9 Pin=SEN2-6
+Added Pin To Net: NetName=NetSEN1_9 Pin=U3-5
+Added Net: Name=NetSEN1_9
+Added Pin To Net: NetName=NetSEN1_22 Pin=SEN1-22
+Added Pin To Net: NetName=NetSEN1_22 Pin=U3-4
+Added Net: Name=NetSEN1_22
+Added Pin To Net: NetName=NetSEN1_23 Pin=SEN1-23
+Added Pin To Net: NetName=NetSEN1_23 Pin=SEN2-8
+Added Pin To Net: NetName=NetSEN1_23 Pin=U3-7
+Added Net: Name=NetSEN1_23
+Added Pin To Net: NetName=NetSEN1_24 Pin=SEN1-24
+Added Pin To Net: NetName=NetSEN1_24 Pin=SEN2-7
+Added Pin To Net: NetName=NetSEN1_24 Pin=U3-6
+Added Net: Name=NetSEN1_24
+Added Pin To Net: NetName=NetSEN2_4 Pin=SEN2-4
+Added Pin To Net: NetName=NetSEN2_4 Pin=U3-3
+Added Net: Name=NetSEN2_4
+Added Pin To Net: NetName=SCK Pin=M1-20
+Added Pin To Net: NetName=SCK Pin=U3-10
+Added Net: Name=SCK
+Added Class: Name=Sensors

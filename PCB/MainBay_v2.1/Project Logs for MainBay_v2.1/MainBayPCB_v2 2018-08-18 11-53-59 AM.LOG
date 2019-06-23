@@ -1,0 +1,15 @@
+Added Component: Designator=SEN1(Sparkfun IMU)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SEN2(Barometric Pressure Sensor)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=SEN1-8
+Added Pin To Net: NetName=+3.3VDC Pin=SEN1-9
+Added Pin To Net: NetName=NetM1_SDA Pin=SEN1-10
+Added Pin To Net: NetName=NetM1_SCL Pin=SEN1-11
+Added Pin To Net: NetName=+3.3VDC Pin=SEN2-1
+Added Pin To Net: NetName=NetM1_SCL Pin=SEN2-3
+Added Pin To Net: NetName=NetM1_SDA Pin=SEN2-4
+Added Pin To Net: NetName=GND Pin=SEN2-6
+Added Member To Class: ClassName=Top Sheet Member=Component GPS1 Neo-6M Module
+Added Member To Class: ClassName=Top Sheet Member=Component SEN1 IMU
+Added Member To Class: ClassName=Top Sheet Member=Component SEN2 Pressure Sensor

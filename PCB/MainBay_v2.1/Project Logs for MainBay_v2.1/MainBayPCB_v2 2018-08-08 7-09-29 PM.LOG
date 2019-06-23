@@ -1,0 +1,87 @@
+Removed Pin From Net: NetName=+5VDC Pin=*-EXT5V
+Removed Pin From Net: NetName=GND Pin=*-GND
+Removed Pin From Net: NetName=GND Pin=*-GND
+Removed Member From Class: ClassName=Top Sheet Member=*
+Added Component: Designator=C5(CAPR5-4X5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "PackageDescription"; Value = "Capacitor; 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "CAPR5-4X5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "23-Sep-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=CNTRLR1(ATMEGA2560 Breakout)
+Add component. Clean all parameters for all variants
+Added Component: Designator=GPS1(Neo-6M GPS Module)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MEM1(uSD Card Reader)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Date created"; Value = "July 29, 2018"; VariantName = "[No Variations]"
+Added Component: Designator=R1(AXIAL-0.3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=SEN1(Sparkfun IMU)
+Add component. Clean all parameters for all variants
+Added Component: Designator=SEN2(Barometric Pressure Sensor)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=+5VDC Pin=CNTRLR1-EXT5V
+Added Pin To Net: NetName=GND Pin=CNTRLR1-GND
+Added Pin To Net: NetName=GND Pin=CNTRLR1-GND
+Added Pin To Net: NetName=GND Pin=GPS1-4
+Added Pin To Net: NetName=+5VDC Pin=GPS1-5
+Added Pin To Net: NetName=GND Pin=MEM1-6
+Added Pin To Net: NetName=+5VDC Pin=MEM1-7
+Added Pin To Net: NetName=+5VDC Pin=R1-2
+Added Pin To Net: NetName=GND Pin=RESET-1
+Added Pin To Net: NetName=GND Pin=SEN1-8
+Added Pin To Net: NetName=+3.3VDC Pin=SEN1-9
+Added Pin To Net: NetName=+3.3VDC Pin=SEN2-1
+Added Pin To Net: NetName=GND Pin=SEN2-6
+Added Pin To Net: NetName=NetC5_1 Pin=C5-1
+Added Pin To Net: NetName=NetC5_1 Pin=CNTRLR1-RESET
+Added Pin To Net: NetName=NetC5_1 Pin=R1-1
+Added Pin To Net: NetName=NetC5_1 Pin=RESET-2
+Added Net: Name=NetC5_1
+Added Pin To Net: NetName=NetCNTRLR1_48 Pin=CNTRLR1-48
+Added Pin To Net: NetName=NetCNTRLR1_48 Pin=MEM1-2
+Added Net: Name=NetCNTRLR1_48
+Added Pin To Net: NetName=NetCNTRLR1_49 Pin=CNTRLR1-49
+Added Pin To Net: NetName=NetCNTRLR1_49 Pin=MEM1-1
+Added Net: Name=NetCNTRLR1_49
+Added Pin To Net: NetName=NetCNTRLR1_MISO Pin=CNTRLR1-MISO
+Added Pin To Net: NetName=NetCNTRLR1_MISO Pin=MEM1-4
+Added Net: Name=NetCNTRLR1_MISO
+Added Pin To Net: NetName=NetCNTRLR1_MOSI Pin=CNTRLR1-MOSI
+Added Pin To Net: NetName=NetCNTRLR1_MOSI Pin=MEM1-3
+Added Net: Name=NetCNTRLR1_MOSI
+Added Pin To Net: NetName=NetCNTRLR1_RX1 Pin=CNTRLR1-RX1
+Added Pin To Net: NetName=NetCNTRLR1_RX1 Pin=GPS1-3
+Added Net: Name=NetCNTRLR1_RX1
+Added Pin To Net: NetName=NetCNTRLR1_SCK Pin=CNTRLR1-SCK
+Added Pin To Net: NetName=NetCNTRLR1_SCK Pin=MEM1-5
+Added Net: Name=NetCNTRLR1_SCK
+Added Pin To Net: NetName=NetCNTRLR1_SCL Pin=CNTRLR1-SCl
+Added Pin To Net: NetName=NetCNTRLR1_SCL Pin=SEN1-11
+Added Pin To Net: NetName=NetCNTRLR1_SCL Pin=SEN2-3
+Added Net: Name=NetCNTRLR1_SCL
+Added Pin To Net: NetName=NetCNTRLR1_SDA Pin=CNTRLR1-SDA
+Added Pin To Net: NetName=NetCNTRLR1_SDA Pin=SEN1-10
+Added Pin To Net: NetName=NetCNTRLR1_SDA Pin=SEN2-4
+Added Net: Name=NetCNTRLR1_SDA
+Added Pin To Net: NetName=NetCNTRLR1_TX1 Pin=CNTRLR1-TX1
+Added Pin To Net: NetName=NetCNTRLR1_TX1 Pin=GPS1-2
+Added Net: Name=NetCNTRLR1_TX1
+Added Member To Class: ClassName=Top Sheet Member=Component C5 Cap2
+Added Member To Class: ClassName=Top Sheet Member=Component CNTRLR1 ATMega2560 Breakout
+Added Member To Class: ClassName=Top Sheet Member=Component GPS1 Neo-6M GPS Module
+Added Member To Class: ClassName=Top Sheet Member=Component MEM1 uSD Card Reader
+Added Member To Class: ClassName=Top Sheet Member=Component R1 Res1
+Added Member To Class: ClassName=Top Sheet Member=Component SEN1 Inertial Measurement Unit
+Added Member To Class: ClassName=Top Sheet Member=Component SEN2 Baromateric Pressure Sensor
+Added Room: Name=Top Sheet

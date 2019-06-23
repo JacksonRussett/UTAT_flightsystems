@@ -1,0 +1,29 @@
+PCAD Importer Log
+Project : ZTT-16.00MX.LibPkg
+
+Section : C:\Users\Jackson's PC\OneDrive - University of Toronto\Rocketry\Flight Systems\Custom Component Library\ZTT-16.00MX.lia
+    Section : PCB Library - ZTT-16.00MX.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token ZTT-16.00MX On Line 134
+            Warning - 1 : Skipping Token attachedSymbol On Line 191
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - ZTT-16.00MX.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 101
+            Warning - 1 : Skipping Token layerContents On Line 110
+            Warning - 1 : Skipping Token layerContents On Line 119
+            Warning - 1 : Skipping Token layerContents On Line 126
+        EndSection
+
+        Section : Generating SCH Library - ZTT-16.00MX.SchLib
+        EndSection
+    EndSection
+EndSection

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetM1_DTR Pin=P1-1
+Removed Pin From Net: NetName=NetM1_TX Pin=P1-2
+Removed Pin From Net: NetName=GND Pin=P1-4
+Removed Pin From Net: NetName=NetM1_USB 5V Pin=P1-5
+Added Pin To Net: NetName=NetM1_USB 5V Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=NetM1_TX Pin=P1-4
+Added Pin To Net: NetName=NetM1_DTR Pin=P1-5

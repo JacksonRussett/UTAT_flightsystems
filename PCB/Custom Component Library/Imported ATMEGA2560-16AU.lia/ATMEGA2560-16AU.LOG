@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : ATMEGA2560-16AU.LibPkg
+
+Section : C:\Users\Jackson's PC\OneDrive - University of Toronto\Rocketry\Flight Systems\Custom Component Library\ATMEGA2560-16AU.lia
+    Section : PCB Library - ATMEGA2560-16AU.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token ATMEGA2560-16AU On Line 1016
+            Warning - 1 : Skipping Token attachedSymbol On Line 2043
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - ATMEGA2560-16AU.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 186
+            Warning - 1 : Skipping Token layerContents On Line 196
+            Warning - 1 : Skipping Token layerContents On Line 605
+        EndSection
+
+        Section : Generating SCH Library - ATMEGA2560-16AU.SchLib
+        EndSection
+    EndSection
+EndSection
