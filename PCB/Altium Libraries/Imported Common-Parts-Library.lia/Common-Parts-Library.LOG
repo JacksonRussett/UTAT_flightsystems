@@ -1,0 +1,78 @@
+PCAD Importer Log
+Project : Common-Parts-Library.LibPkg
+
+Section : C:\Users\Jackson's PC\Documents\github\UTAT_flightsystems\PCB\Altium Libraries\Common-Parts-Library.lia
+    Section : PCB Library - Common-Parts-Library.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token isVisible On Line 1265
+            Warning - 1 : Skipping Token isVisible On Line 1266
+            Warning - 1 : Skipping Token isVisible On Line 1267
+            Warning - 1 : Skipping Token isVisible On Line 1268
+            Warning - 1 : Skipping Token SN74LS377N On Line 1448
+            Warning - 1 : Skipping Token SN74LS174N On Line 1637
+            Warning - 1 : Skipping Token SN74LS157N On Line 1790
+            Warning - 1 : Skipping Token SN74LS00N On Line 1943
+            Warning - 1 : Skipping Token SN74LS161AD On Line 2078
+            Warning - 1 : Skipping Token SN74LS181N On Line 2231
+            Warning - 1 : Skipping Token LD1117S33TR On Line 2456
+            Warning - 1 : Skipping Token LM2592HVS-5.0 On Line 2501
+            Warning - 1 : Skipping Token attachedSymbol On Line 2595
+            Warning - 1 : Skipping Token attachedSymbol On Line 2668
+            Warning - 1 : Skipping Token attachedSymbol On Line 2733
+            Warning - 1 : Skipping Token attachedSymbol On Line 2796
+            Warning - 1 : Skipping Token attachedSymbol On Line 2857
+            Warning - 1 : Skipping Token attachedSymbol On Line 2930
+            Warning - 1 : Skipping Token attachedSymbol On Line 2999
+            Warning - 1 : Skipping Token attachedSymbol On Line 3030
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - Common-Parts-Library.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token padStyleDef On Line 33
+            Warning - 1 : Skipping Token padStyleDef On Line 45
+            Warning - 1 : Skipping Token padStyleDef On Line 57
+            Warning - 1 : Skipping Token padStyleDef On Line 69
+            Warning - 1 : Skipping Token padStyleDef On Line 81
+            Warning - 1 : Skipping Token multiLayer On Line 156
+            Warning - 1 : Skipping Token layerContents On Line 178
+            Warning - 1 : Skipping Token layerContents On Line 189
+            Warning - 1 : Skipping Token layerContents On Line 280
+            Warning - 1 : Skipping Token multiLayer On Line 378
+            Warning - 1 : Skipping Token layerContents On Line 396
+            Warning - 1 : Skipping Token layerContents On Line 403
+            Warning - 1 : Skipping Token layerContents On Line 478
+            Warning - 1 : Skipping Token multiLayer On Line 560
+            Warning - 1 : Skipping Token layerContents On Line 578
+            Warning - 1 : Skipping Token layerContents On Line 585
+            Warning - 1 : Skipping Token layerContents On Line 660
+            Warning - 1 : Skipping Token multiLayer On Line 742
+            Warning - 1 : Skipping Token layerContents On Line 758
+            Warning - 1 : Skipping Token layerContents On Line 769
+            Warning - 1 : Skipping Token layerContents On Line 836
+            Warning - 1 : Skipping Token multiLayer On Line 910
+            Warning - 1 : Skipping Token layerContents On Line 928
+            Warning - 1 : Skipping Token layerContents On Line 935
+            Warning - 1 : Skipping Token layerContents On Line 962
+            Warning - 1 : Skipping Token multiLayer On Line 996
+            Warning - 1 : Skipping Token layerContents On Line 1022
+            Warning - 1 : Skipping Token layerContents On Line 1033
+            Warning - 1 : Skipping Token layerContents On Line 1140
+            Warning - 1 : Skipping Token multiLayer On Line 1254
+            Warning - 1 : Skipping Token layerContents On Line 1260
+            Warning - 1 : Skipping Token layerContents On Line 1271
+            Warning - 1 : Skipping Token layerContents On Line 1323
+            Warning - 1 : Skipping Token multiLayer On Line 1382
+            Warning - 1 : Skipping Token layerContents On Line 1390
+            Warning - 1 : Skipping Token layerContents On Line 1418
+        EndSection
+
+        Section : Generating SCH Library - Common-Parts-Library.SchLib
+        EndSection
+    EndSection
+EndSection
