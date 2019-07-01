@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : 1201M2S3AQE2.LibPkg
+
+Section : C:\Users\Jackson's PC\Documents\github\UTAT_flightsystems\PCB\Altium Libraries\1201M2S3AQE2.lia
+    Section : PCB Library - 1201M2S3AQE2.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token 1201M2S3AQE2 On Line 158
+            Warning - 1 : Skipping Token attachedSymbol On Line 259
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - 1201M2S3AQE2.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 94
+            Warning - 1 : Skipping Token layerContents On Line 117
+            Warning - 1 : Skipping Token layerContents On Line 140
+            Warning - 1 : Skipping Token layerContents On Line 146
+        EndSection
+
+        Section : Generating SCH Library - 1201M2S3AQE2.SchLib
+        EndSection
+    EndSection
+EndSection
