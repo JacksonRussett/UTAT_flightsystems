@@ -1,0 +1,9 @@
+[Unit]
+Description=RocketPiCam Recording and Shutdown Trigger Service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /home/pi/RocketPiCam/RocketPiCam.py
+
+[Install]
+WantedBy=multi-user.target
