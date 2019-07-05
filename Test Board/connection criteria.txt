@@ -1,0 +1,22 @@
+SPI: (7 lines)
+5v
+3.7v
+GND
+SCLK
+MISO
+MOSI
+SS
+
+I2C: (5 lines)
+5v
+3.7v
+GND
+SCLK
+SDA
+
+Serial: (5 lines)
+5v
+3.7v
+GND
+RX
+TX
