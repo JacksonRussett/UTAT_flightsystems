@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VBAT Pin=P2-3
+Removed Pin From Net: NetName=VBAT Pin=P2-8
+Added Pin To Net: NetName=GND Pin=P2-3
+Added Pin To Net: NetName=GND Pin=P2-8
+Added Member To Class: ClassName=main Member=Component J1 15A 2P TERM BLOCK, BLACKtested: NO
