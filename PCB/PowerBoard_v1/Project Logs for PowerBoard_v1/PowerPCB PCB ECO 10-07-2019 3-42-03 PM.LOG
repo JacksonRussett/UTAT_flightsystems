@@ -1,0 +1,8 @@
+Change Component Footprint: Designator=C2 Old Footprint=47 uF Cap New Footprint=CAPR5-4X5
+Change Component Footprint: Designator=C4 Old Footprint=680 uF Cap New Footprint=CAPR5-4X5
+Change Component Footprint: Designator=D2 Old Footprint=1608[0603] New Footprint=LED-1
+Change Component Footprint: Designator=D3 Old Footprint=1608[0603] New Footprint=LED-1
+Change Component Footprint: Designator=D4 Old Footprint=1608[0603] New Footprint=LED-1
+Change Component Footprint: Designator=L2 Old Footprint=INDC4532X34N New Footprint=Inductor
+Change Component Footprint: Designator=B1 Old Footprint=Mini-Fit 2 Pin Molex New Footprint=1760490000
+Change Component Comment : Designator=L1 Old Comment=33uH New Comment=Inductor
