@@ -1,0 +1,28 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: PowerPCB.GBR   7/25/2019  5:48:54 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GTO                Top Overlay                             
+.GTS                Top Solder                              
+.GTP                Top Paste                               
+.GBP                Bottom Paste                            
+.GPB                Bottom Pad Master                       
+.GPT                Top Pad Master                          
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
+.GM8                Mechanical 8                            
+.GM15               Mechanical 15                           
+.GM4                Mechanical 4                            
+.GM30               Mechanical 30                           
+.GM13               Mechanical 13                           
+.GM16               Mechanical 16                           
+.GM22               Mechanical 22                           
+------------------------------------------------------------------------------------------
