@@ -1,0 +1,12 @@
+L2 PCBs (URRG Sept 2019):
+Telemetry - https://easyeda.com/jmrussett/teensy3-2_telemetry
+
+L2 PCBs (URRG Nov 2019):
+Telemetry - https://easyeda.com/jmrussett/teensytelemetry_v2
+Power - https://easyeda.com/jmrussett/ttpower_v2
+
+GPS Tracker:
+Main PCB - https://easyeda.com/jmrussett/gps_tracker_v1
+
+Clap Circuit Activity:
+Schematic - https://easyeda.com/jmrussett/utat-rocketry-avionics-w2-activity
