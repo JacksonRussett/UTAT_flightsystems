@@ -32,12 +32,13 @@ std::string GetLastErrorAsString() {
 
 int main(int argc, char* argv[]) {
 	// Check for right number of arguments, and provide help if wrong
-	if (argc != 5) {
+	if (argc != 6) {
 		std::cout << "Your arguments were invalid. This programs takes 4 arguments:" << std::endl;
 		std::cout << "	1. The drive letter of your SD card." << std::endl;
 		std::cout << "	2. The name of the CSV file you want to write the data to." << std::endl;
 		std::cout << "	3. The absolute starting address of the data to read (this should be a multiple of the sector size of your SD card)." << std::endl;
-		std::cout << "	4. How many sectors to read from this starting address." << std::endl;
+		std::cout << "	4. The absolute starting address of the partition you are reading from." << std::endl;
+		std::cout << "	5. How many sectors to read from this starting address." << std::endl;
 		return -1;
 	}
 
@@ -51,10 +52,10 @@ int main(int argc, char* argv[]) {
 	}
 	// The subtraction is needed since SetFilePointer() goes partition-wise, and the
 	// first partition on my SD card at least starts at 1048576. This may need to be configurable.
-	unsigned long long startAddress = atoll(argv[3]) - 1048576;
+	unsigned long long startAddress = atoll(argv[3]) - atoll(argv[4]);
 	// The number of sectors to read: this is required since it has to stop somewhere,
 	// and just pulling the sd card out might damage it or cause insufficent data to be read.
-	unsigned int numSectorsToRead = atoi(argv[4]);
+	unsigned int numSectorsToRead = atoi(argv[5]);
 
 
 	//Get a handle to the SD card from the OS
