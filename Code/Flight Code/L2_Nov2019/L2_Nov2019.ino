@@ -51,20 +51,19 @@ void setup() {
 	RADIOSERIAL.begin(9600);
 
 
-	Serial.println("Starting sensors...");
+	RADIOSERIAL.println("Starting sensors...");
 	while (mySDCard.init() != 0) { delay(1000); }
-<<<<<<< Updated upstream
 	blockAddress = 8193; // Replace this 
-=======
-	blockAddress = 13953097; // Replace this 
->>>>>>> Stashed changes
-	Serial.println("	SD card ready");
-	while (myMS5611.init() != 0) { delay(1000); }
-	Serial.println("	MS5611 ready");
+	RADIOSERIAL.println("	SD card ready");
+	if(myMS5611.init() != 0) {
+	  RADIOSERIAL.println("	MS5611 ready");
+	} else {
+    RADIOSERIAL.println(" No MS5611");
+	}
 	while (myMPU9250.begin() < 0) { delay(1000); }
-	Serial.println("	MPU9250 ready");
+	RADIOSERIAL.println("	MPU9250 ready");
 	myINA219.begin(); // See if there's some way to catch errors here
-	Serial.println("	INA219 ready");
+	RADIOSERIAL.println("	INA219 ready");
 }
 
 
@@ -138,12 +137,6 @@ void loop() {
 	// Increment the block address
 	blockAddress++;
 
-<<<<<<< Updated upstream
 	// Write "." during downtime
 	RADIOSERIAL.write(".");
 }
-=======
-  delay(100);
-  //exit(0);
-}
->>>>>>> Stashed changes
