@@ -12,16 +12,14 @@
 // Init MS5611 with I2C address
 MS5611 myMS5611(0x77);
 // Init SD card with SS pin
-leanSDCard mySDCard(2);
+leanSDCard mySDCard(10);
 // Init MPU9250 with I2C address
 MPU9250 myMPU9250(Wire, 0x68);
 // Init the NEO-6M GPS module
-#define GPSSERIAL Serial1
+#define GPSSERIAL Serial3
 TinyGPS myNEO6M;
 // Init the INA219
 Adafruit_INA219 myINA219;
-// Radio
-#define RADIOSERIAL Serial2
 
 
 // Hypsometric formula: A formula for calculating altitude from pressure and temperature
@@ -47,17 +45,11 @@ void setup() {
 	SPI.begin();
 	// Hardware serial lines for NEO-6M
 	GPSSERIAL.begin(9600);
-	// Serial for using the radio
-	RADIOSERIAL.begin(9600);
 
 
 	Serial.println("Starting sensors...");
 	while (mySDCard.init() != 0) { delay(1000); }
-<<<<<<< Updated upstream
-	blockAddress = 8193; // Replace this 
-=======
-	blockAddress = 13953097; // Replace this 
->>>>>>> Stashed changes
+	blockAddress = 13953097; // Replcae this 
 	Serial.println("	SD card ready");
 	while (myMS5611.init() != 0) { delay(1000); }
 	Serial.println("	MS5611 ready");
@@ -69,25 +61,8 @@ void setup() {
 
 
 void loop() {
-	float lat = nanf("0.0");
-	float lon = nanf("0.0");
-	while (GPSSERIAL.available()) {
-		if (myNEO6M.encode(GPSSERIAL.read())) {
-			myNEO6M.f_get_position(&lat, &lon);
-			// Send to radio
-			char buff[10];
-			RADIOSERIAL.write("\n");
-			dtostrf(lat, 4, 6, buff);
-			RADIOSERIAL.write(buff, 10);
-			RADIOSERIAL.write("\t");
-			dtostrf(lon, 4, 6, buff);
-			RADIOSERIAL.write(buff, 10);
-			RADIOSERIAL.write("\n");
-		}
-	}
-
 	unsigned long t1 = micros();
-	for (int i = 0; i < 126; i += 14) {
+	for (int i = 0; i < 126; i+=14) {
 		// Get time from microcontroller
 		unsigned long time = micros();
 		data[i] = time;
@@ -123,8 +98,13 @@ void loop() {
 		data[i + 9] = gyroX;
 		data[i + 10] = gyroY;
 		data[i + 11] = gyroZ;
-		
+   
 		// Get GPS coordinates: NaN is stored any time a sample is taken when the GPS receiver is still receiving a sentence
+		float lat = nanf("0.0");
+		float lon = nanf("0.0");
+		if (myNEO6M.encode(Serial3.read())) {
+			myNEO6M.f_get_position(&lat, &lon);
+		}
 		data[i + 12] = lat;
 		data[i + 13] = lon;
 	}
@@ -137,13 +117,4 @@ void loop() {
 	mySDCard.writeSector(blockAddress, (byte*)data);
 	// Increment the block address
 	blockAddress++;
-
-<<<<<<< Updated upstream
-	// Write "." during downtime
-	RADIOSERIAL.write(".");
 }
-=======
-  delay(100);
-  //exit(0);
-}
->>>>>>> Stashed changes
